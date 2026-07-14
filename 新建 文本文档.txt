@@ -1,0 +1,23 @@
+# 安装的依赖，可以重新下载
+node_modules/
+
+# 构建产物，单独通过 GitHub Releases 发布
+dist/
+
+# 临时文件
+tmp/
+
+# Codex 和本地开发文件
+.agents/
+.codex/
+
+# 环境变量和密钥
+.env
+.env.*
+
+# 日志
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
